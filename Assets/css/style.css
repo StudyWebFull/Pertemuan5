@@ -1,0 +1,99 @@
+*{
+ padding: 0;   
+ margin: 0;
+ box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../font/Poppins-Regular.ttf);
+}
+body{
+    font-family: "poppins";
+}
+header{
+height: 120px;
+display: flex;
+justify-content: space-between;
+padding: 0 130px;
+align-items: center;
+position: absolute;
+left: 0;
+right: 0;
+}
+header nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+header nav button{
+    height: 65px;
+    width: 141px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: blue;
+    font-size: 24px;
+}
+
+.review {
+    height: 120vh;
+    background-image: url(../../gambar/gambar1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review .slogan h1{
+    font-size: 64px;
+    color: #ffffff;
+    text-align: center;
+}
+.review .slogan p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+.review .slogan{
+width: 820px;
+}
+.jadwal {
+    height: 274px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 50px 50px 50px;
+}
+.pilih-jadwal{
+    width: 279px;
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    background-color: #FFFFFF;
+   border-radius: 25px 25px 0px 0px;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   padding-top: 10px;
+}
+.pilih-jadwal div{
+width: 121px;
+height: 66px;
+padding: 15px 20px ;
+font-size: 18px;
+}
+.pilih-jadwal .active{
+background: rgba(62, 134, 245, 0.2);
+border-radius: 25px;
+}
+.pilih-jadwal i {
+    color: #3E86F5;
+    font-size: 18px;
+}
+.pilih-jadwal i.fa-plane{
+transform: rotate(-25deg);
+}
